@@ -85,7 +85,7 @@ const squareroot = (num1) => {
     }
 }
 
-console.log(squareroot(64));
+console.log(squareroot(81));
 
 // CUBE__
 
@@ -110,4 +110,3 @@ const cuberoot = (num1) => {
 }
 
 console.log(cuberoot(27));
-          
