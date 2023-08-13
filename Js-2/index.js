@@ -44,7 +44,7 @@ const dividethreenumbers = (num1, num2, num3) => {
     }
 }
 
-console.log(dividethreenumbers(1000,50,5));
+console.log(dividethreenumbers(1000, 50, 5));
 
 // ODD OR EVEN__
 
@@ -140,11 +140,11 @@ console.log(nthroot(10));
 
 const calculator = (num1, num2, num3, operator) => {
     const operators = {
-        '+' : num1 + num2 + num3,
-        '-' : num1 - num2 - num3,
-        '*' : num1 * num2 * num3,
-        '/' : num1 / num2 / num3,
-        '%' : num1 % num2 % num3,
+        '+': num1 + num2 + num3,
+        '-': num1 - num2 - num3,
+        '*': num1 * num2 * num3,
+        '/': num1 / num2 / num3,
+        '%': num1 % num2 % num3,
     };
     return operators[operator] || 'Please enter a valid operator'
 }
@@ -170,7 +170,7 @@ const IF_Calculator = (number1, number2, number3, operation) => {
             return (number1 / number2 / number3);
         } else if (operation === '%') {
             return (number1 % number2 % number3);
-        }else{
+        } else {
             return 'Please enter a valid operator'
         }
     } catch (error) {
