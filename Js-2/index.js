@@ -86,3 +86,15 @@ const squareroot = (num1) => {
 }
 
 console.log(squareroot(64));
+
+// CUBE__
+
+const cube = (num1) => {
+    try {
+        return (num1 * num1 * num1);
+    } catch (error) {
+        return error.messagge
+    }
+}
+
+console.log(cube(3));
