@@ -155,3 +155,25 @@ console.log(calculator(1, 4, 2, '*'));
 console.log(calculator(10, 2, 5, '/'));
 
 
+// CALCULATOR USING IFELSE__
+
+const calculator = (num1, num2, num3, operator) => {
+    try {
+        if (operator === '+') {
+            return (num1 + num2 + num3);
+        } else if (operator === '-') {
+            return (num1 - num2 - num3);
+        } else if (operator === '*') {
+            return (num1 * num2 * num3);
+        } else if (operator === '/') {
+            return (num1 / num2 / num3);
+        } else if (operator === '%') {
+            return (num1 % num2 % num3);
+        }else{
+            return 'Please enter a valid operator'
+        }
+    } catch (error) {
+        return error.messagge
+    }
+}
+
