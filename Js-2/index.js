@@ -134,3 +134,18 @@ const nthroot = (n) => {
 }
 
 console.log(nthroot(10));
+
+
+// Calculator__
+
+const calculator = (num1, num2, num3, operator) => {
+    const operators = {
+        '+' : num1 + num2 + num3,
+        '-' : num1 - num2 - num3,
+        '*' : num1 * num2 * num3,
+        '/' : num1 / num2 / num3,
+        '%' : num1 % num2 % num3,
+    }
+}
+
+console.log(calculator(10, 20, 30, '/'));
