@@ -63,4 +63,14 @@ const oddoreven = (num1) => {
 console.log(oddoreven(80));
 console.log(oddoreven(21));
 
+// SQUARES__
 
+const squares = (num1) => {
+    try {
+        return (num1 * num1);
+    } catch (error) {
+        return error.messagge
+    }
+}
+
+console.log(squares(9));
