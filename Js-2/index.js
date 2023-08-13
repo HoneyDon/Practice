@@ -98,3 +98,16 @@ const cube = (num1) => {
 }
 
 console.log(cube(3));
+
+// CUBE ROOT__
+
+const cuberoot = (num1) => {
+    try {
+        return (Math.cbrt(num1));
+    } catch (error) {
+        return error.messagge
+    }
+}
+
+console.log(cuberoot(27));
+          
