@@ -153,22 +153,23 @@ console.log(calculator(3, 4, 5, '+'));
 console.log(calculator(3, 4, 10, '-'));
 console.log(calculator(1, 4, 2, '*'));
 console.log(calculator(10, 2, 5, '/'));
+console.log(calculator(10, 2, 5, '$'));
 
 
 // CALCULATOR USING IFELSE__
 
-const calculator = (num1, num2, num3, operator) => {
+const IF_Calculator = (number1, number2, number3, operation) => {
     try {
-        if (operator === '+') {
-            return (num1 + num2 + num3);
-        } else if (operator === '-') {
-            return (num1 - num2 - num3);
-        } else if (operator === '*') {
-            return (num1 * num2 * num3);
-        } else if (operator === '/') {
-            return (num1 / num2 / num3);
-        } else if (operator === '%') {
-            return (num1 % num2 % num3);
+        if (operation === '+') {
+            return (number1 + number2 + number3);
+        } else if (operation === '-') {
+            return (number1 - number2 - number3);
+        } else if (operation === '*') {
+            return (number1 * number2 * number3);
+        } else if (operation === '/') {
+            return (number1 / number2 / number3);
+        } else if (operation === '%') {
+            return (number1 % number2 % number3);
         }else{
             return 'Please enter a valid operator'
         }
@@ -177,3 +178,8 @@ const calculator = (num1, num2, num3, operator) => {
     }
 }
 
+console.log(IF_Calculator(3, 4, 5, '+'));
+console.log(IF_Calculator(3, 4, 10, '-'));
+console.log(IF_Calculator(1, 4, 2, '*'));
+console.log(IF_Calculator(10, 2, 5, '/'));
+console.log(IF_Calculator(10, 2, 5, '$'));
