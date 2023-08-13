@@ -145,7 +145,13 @@ const calculator = (num1, num2, num3, operator) => {
         '*' : num1 * num2 * num3,
         '/' : num1 / num2 / num3,
         '%' : num1 % num2 % num3,
-    }
+    };
+    return operators[operator] || 'Please enter a valid operator'
 }
 
-console.log(calculator(10, 20, 30, '/'));
+console.log(calculator(3, 4, 5, '+'));
+console.log(calculator(3, 4, 10, '-'));
+console.log(calculator(1, 4, 2, '*'));
+console.log(calculator(10, 2, 5, '/'));
+
+
