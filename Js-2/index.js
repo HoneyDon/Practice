@@ -74,3 +74,15 @@ const squares = (num1) => {
 }
 
 console.log(squares(9));
+
+// SQUARE ROOT__
+
+const squareroot = (num1) => {
+    try {
+        return (Math.sqrt(num1));
+    } catch (error) {
+        return error.messagge
+    }
+}
+
+console.log(squareroot(64));
