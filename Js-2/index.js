@@ -110,3 +110,27 @@ const cuberoot = (num1) => {
 }
 
 console.log(cuberoot(27));
+
+// NTH NUMBER__
+
+const nthterm = (n) => {
+    try {
+        return (n * 2 + 1);
+    } catch (error) {
+        return error.messagge
+    }
+}
+
+console.log(nthterm(5));
+
+// NTH ROOT__
+
+const nthroot = (n) => {
+    try {
+        return (Math.pow(n, 1 / n));
+    } catch (error) {
+        return error.messagge
+    }
+}
+
+console.log(nthroot(10));
