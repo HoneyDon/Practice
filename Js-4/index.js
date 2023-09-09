@@ -4,6 +4,6 @@ const changecolor = () => {
         getHTMLElement.style.color = "green";
         console.log("getHTMLElement")
     } catch (error) {
-        console.log(error.messagge)
+        console.log(error.message)
     }
 }
