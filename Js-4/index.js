@@ -8,6 +8,8 @@ const changecolor = () => {
     }
 }
 
+// CREATING LIST
+
 const innercreatelist = () => {
     try {
         const getHTMLElement = document.querySelector(".inner-list")
@@ -27,3 +29,6 @@ const createlist = () => {
         console.log(error.message)
     }
 }
+
+// Creating Table
+
