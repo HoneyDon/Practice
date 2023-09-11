@@ -1,41 +1,41 @@
 let hassan = {
- name : "Hassan",
- age : "17",
- grade : "A*",
- height : "0",
- location : "lahore"
+    name: "Hassan",
+    age: "17",
+    grade: "A*",
+    height: "0",
+    location: "lahore"
 }
 
 let sara = {
- name : "Sara",
- age : "20",
- grade : "",
- height : "5.0",
- location : "Islamabad"
+    name: "Sara",
+    age: "20",
+    grade: "",
+    height: "5.0",
+    location: "Islamabad"
 }
 
 let john = {
- name : "John",
- age : "0",
- grade : "A",
- height : "6.1",
- location : "Karachi"
+    name: "John",
+    age: "0",
+    grade: "A",
+    height: "6.1",
+    location: "Karachi"
 }
 
 let ahmad = {
- name : "",
- age : "35",
- grade : "b*",
- height : "5.2",
- location : "0"
+    name: "",
+    age: "35",
+    grade: "b*",
+    height: "5.2",
+    location: "0"
 }
 
 let umer = {
- name : "Umer",
- age : "",
- grade : "A*",
- height : "5.5",
- location : ""
+    name: "Umer",
+    age: "",
+    grade: "A*",
+    height: "5.5",
+    location: ""
 }
 
 // HASSAN
@@ -139,7 +139,7 @@ if (ahmad.height) {
 console.log(!!ahmad.grade);
 if (ahmad.grade) {
     console.log("Ahmad's grade is " + ahmad.grade);
-}    
+}
 
 console.log(!!ahmad.location);
 if (ahmad.location) {
